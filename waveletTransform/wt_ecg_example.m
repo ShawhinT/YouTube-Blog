@@ -48,7 +48,7 @@ for i=2:numScales+1
     
     subplot(numScales+1,1,i)
     plot(wt(i-1,:))
-    title(strcat('Wavelet Scale 2^', string(i-1)), 'FontSize', 14)
+    title(strcat('Wavelet Scale 2^', string(i-2)), 'FontSize', 14)
     axis tight
 end
 
@@ -106,7 +106,7 @@ fig.Position = [0 0 1 1];
 % plot signal with detected r peaks using reconstructed signal from DWT
 plot(t,ECG)
 hold on
-plot(locs,ECG(locs),'ro')
+plot(locs,ECG(locs),'ro', 'LineWidth',2)
 xlabel('Time', 'FontSize', 14)
 title('R Peaks Detected Using Reconstructed Signal from Wavelet Transform', ...
     'FontSize', 16)
