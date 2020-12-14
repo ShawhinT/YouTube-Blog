@@ -9,7 +9,7 @@ clear; close all; clc
 %% LOAD DATA
 
 % load ECG data
-load('ECG.mat');
+load('ECG_data.mat');
 
 %% PERFORM WAVELET TRANSFORM
 
