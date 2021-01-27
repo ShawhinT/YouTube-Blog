@@ -13,7 +13,7 @@ plot(Data(:,1))
 title("Fp1 Before Blink Removal", 'FontSize', 14)
 %% PCA
 
-% DEFINE NUMBER OF PRINICPLE COMPONENTS TO KEEP
+% DEFINE NUMBER OF PRINICPAL COMPONENTS TO KEEP
 % NOTE: it is typically a good idea to try out different numbers and
 % compare their total explained variation
 q=21;
@@ -25,11 +25,11 @@ q=21;
 [coeff,Data_PCA,latent,tsquared,explained,mu] = pca(Data, 'NumComponents', q);
 
 % compute and display explained variation
-disp(strcat("Top ", string(q), " principle components explain ", ...
+disp(strcat("Top ", string(q), " principal components explain ", ...
     string(sum(explained(1:q))), " of variation"))
 %% ICA
 
-% compute independent components from principle components
+% compute independent components from principal components
 Mdl = rica(Data_PCA, q);
 Data_ICA = transform(Mdl, Data_PCA);
 
