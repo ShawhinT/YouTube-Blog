@@ -1,0 +1,5 @@
+# Requirements list for causal inference example code
+
+matplotlib == 3.4.1
+econml == 0.12.0
+dowhy == 0.6         
