@@ -1,0 +1,5 @@
+matplotlib==3.4.1
+numpy==1.19.4
+persim==0.3.1
+ripser==0.4.1
+yfinance==0.1.63

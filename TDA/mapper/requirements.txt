@@ -1,0 +1,7 @@
+kmapper==2.0.1
+matplotlib==3.4.1
+numpy==1.19.4
+scikit_learn==1.0.2
+umap==0.1.1
+umap_learn==0.4.6
+yfinance==0.1.63
