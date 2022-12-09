@@ -12,4 +12,4 @@ This code was written using Python 3.9.12. The library requirements are listed i
 
 YouTube video: coming soon
 
-Blog post: coming soon
+Blog post: https://shawhin.medium.com/smoothing-financial-time-series-with-wavelets-79645a44aa40
