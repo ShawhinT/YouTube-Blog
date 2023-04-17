@@ -10,6 +10,6 @@ This code was written using Python 3.9.12. The library requirements are listed i
 
 ### Supplemental Materials
 
-YouTube video: coming soon
+YouTube video: https://www.youtube.com/watch?v=-5c1KO-JF_s&ab_channel=ShawhinTalebi
 
 Blog post: https://shawhin.medium.com/smoothing-financial-time-series-with-wavelets-79645a44aa40
