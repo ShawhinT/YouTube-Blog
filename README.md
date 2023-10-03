@@ -13,7 +13,7 @@ Codes to complement YouTube videos and Blogs.
 
 If you find value in this work and would like to share/repurpose it, please use the following citation: 
 
-`Talebi S., et al. YouTube-Blog. 2023. https://github.com/ShawhinT/YouTube-Blog`
+`Talebi S. YouTube-Blog. 2023. https://github.com/ShawhinT/YouTube-Blog`
 
 __Bibtex__:
 ```
