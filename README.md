@@ -16,6 +16,7 @@ If you find value in this work and would like to share/repurpose it, please use 
 `Talebi S. YouTube-Blog. 2024. https://github.com/ShawhinT/YouTube-Blog`
 
 __Bibtex__:
+
 ```
 @misc{YT-Blog,
 authors={Shawhin Talebi},
