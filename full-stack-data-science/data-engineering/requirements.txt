@@ -1,0 +1,4 @@
+jupyterlab==4.1.6 
+polars==0.20.21
+youtube_transcript_api==0.6.2
+matplotlib==3.8.0
