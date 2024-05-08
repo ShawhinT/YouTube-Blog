@@ -1,0 +1,7 @@
+jupyterlab==4.1.6 
+polars==0.20.21
+sentence-transformers==2.6.1
+scikit-learn==1.2.2
+numpy==1.26.4
+gradio==4.29.0
+matplotlib==3.8.0
