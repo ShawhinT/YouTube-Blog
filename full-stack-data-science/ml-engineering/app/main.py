@@ -3,7 +3,7 @@ import polars as pl
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics import DistanceMetric
 import numpy as np
-from functions import returnSearchResultIndexes
+from app.functions import returnSearchResultIndexes
 
 # define model info
 model_name = 'all-MiniLM-L6-v2'
