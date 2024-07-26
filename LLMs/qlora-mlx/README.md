@@ -11,7 +11,7 @@ python -m venv mlx-env
 ```
 3. Activate env (bash/zsh)
 ```
-source mlx-env//bin/activate
+source mlx-env/bin/activate
 ```
 4. Install requirements
 ```
