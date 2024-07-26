@@ -2,7 +2,7 @@
 
 Code hacked from here: https://github.com/ml-explore/mlx-examples/tree/main/lora
 
-### How to run
+### How to Setup
 
 1. Clone repo and navigate to this folder
 2. Create Python env
@@ -17,3 +17,7 @@ source mlx-env/bin/activate
 ```
 pip install -r requirements.txt
 ```
+Note: MLX has the following requirements. More info [here](https://ml-explore.github.io/mlx/build/html/install.html).
+- Using an M series chip (Apple silicon)
+- Using a native Python >= 3.8
+- macOS >= 13.5 (MacOS 14 recommended)
