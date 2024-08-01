@@ -16,6 +16,7 @@ Topics:
 - QLoRA (efficient fine-tuning): [Video](https://youtu.be/XpoKB3usmKc?si=CW_Pjup1eXoNxFrK) | [Blog](https://towardsdatascience.com/qlora-how-to-fine-tune-an-llm-on-a-single-gpu-4e44d6b5be32) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/qlora)
 - RAG: [Video](https://youtu.be/Ylz779Op9Pw?si=D78JVlKwaSfGGAEo) | [Blog](https://towardsdatascience.com/how-to-improve-llms-with-rag-abdc132f76ac) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/rag)
 - Text Embeddings: [Video](https://youtu.be/sNa_uiqSlJo?si=ptKj_5a3YdL1eIFN) | [Blog](https://towardsdatascience.com/text-embeddings-classification-and-semantic-search-8291746220be) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/text-embeddings)
+- QLoRA (on Mac): [Video](https://youtu.be/3PIqhdRzhxE) | [Blog](https://towardsdatascience.com/local-llm-fine-tuning-on-mac-m1-16gb-f59f4f598be7) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/qlora-mlx)
 
 ### Supplemental Materials
 
