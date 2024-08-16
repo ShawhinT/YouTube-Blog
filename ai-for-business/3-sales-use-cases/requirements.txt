@@ -1,0 +1,12 @@
+numpy
+matplotlib
+jupyterlab
+PyMuPDF
+polars
+scikit-learn
+openai==1.40.0
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
