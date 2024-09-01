@@ -17,6 +17,7 @@ Topics:
 - RAG: [Video](https://youtu.be/Ylz779Op9Pw?si=D78JVlKwaSfGGAEo) | [Blog](https://towardsdatascience.com/how-to-improve-llms-with-rag-abdc132f76ac) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/rag)
 - Text Embeddings: [Video](https://youtu.be/sNa_uiqSlJo?si=ptKj_5a3YdL1eIFN) | [Blog](https://towardsdatascience.com/text-embeddings-classification-and-semantic-search-8291746220be) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/text-embeddings)
 - QLoRA (on Mac): [Video](https://youtu.be/3PIqhdRzhxE) | [Blog](https://towardsdatascience.com/local-llm-fine-tuning-on-mac-m1-16gb-f59f4f598be7) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/qlora-mlx)
+- Model Compression: [Video](https://youtu.be/FLkUOkeMd5M) | [Blog](https://towardsdatascience.com/compressing-large-language-models-llms-9f406eea5b5e) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/model-compression)
 
 ### Supplemental Materials
 
