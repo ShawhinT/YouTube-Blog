@@ -14,7 +14,7 @@ X = np.array([v, 2*v, v/2])
 print(X)
 
 # matrix multiplication
-print(X*v)
+print(np.matmul(X,v))
 
 
 # create a 1D array with 3 equally spaced values between 1 and 9
