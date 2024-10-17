@@ -18,6 +18,7 @@ Topics:
 - Text Embeddings: [Video](https://youtu.be/sNa_uiqSlJo?si=ptKj_5a3YdL1eIFN) | [Blog](https://towardsdatascience.com/text-embeddings-classification-and-semantic-search-8291746220be) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/text-embeddings)
 - QLoRA (on Mac): [Video](https://youtu.be/3PIqhdRzhxE) | [Blog](https://towardsdatascience.com/local-llm-fine-tuning-on-mac-m1-16gb-f59f4f598be7) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/qlora-mlx)
 - Model Compression: [Video](https://youtu.be/FLkUOkeMd5M) | [Blog](https://towardsdatascience.com/compressing-large-language-models-llms-9f406eea5b5e) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/model-compression)
+- Fine-tuning BERT: [Video](https://youtu.be/4QHg8Ix8WWQ) | [Blog](https://medium.com/towards-data-science/fine-tuning-bert-for-text-classification-a01f89b179fc) | [Code](https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/model-compression/0_train-teacher.ipynb)
 
 ### Supplemental Materials
 
