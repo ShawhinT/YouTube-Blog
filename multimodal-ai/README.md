@@ -8,5 +8,5 @@ In this series, I explore recent developments in multimodal AI systems. Each top
 ### Supplemental Materials
 
 🎥 YouTube Playlist: coming soon! <br>
-📰 Medium Reading List: coming soon!
+📰 [Medium Reading List](https://shawhin.medium.com/list/multimodal-ai-fe9521d0e77a)
 <br><br>
