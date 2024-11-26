@@ -1,0 +1,5 @@
+jupyterlab
+transformers
+torch
+torchvision
+torchaudio
