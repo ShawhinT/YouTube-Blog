@@ -1,0 +1,432 @@
+[
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings: An Introduction",
+        "text": "This is the 2nd article in a larger series on multimodal AI. In the previous post, we saw how to augment large language models (LLMs) to understand new data modalities (e.g., images, audio, video). One such approach relied on encoders that generate vector representations (i.e. embeddings) of non-text data. In this article, I will discuss multimodal embeddings and share what they can do via two practical use cases."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings: An Introduction",
+        "text": "AI research is traditionally split into distinct fields: NLP, computer vision (CV), robotics, human-computer interface (HCI), etc. However, countless practical tasks require the integration of these different research areas e.g. autonomous vehicles (CV + robotics), AI agents (NLP + CV + HCI), personalized learning (NLP + HCI), etc."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings: An Introduction",
+        "text": "Although these fields aim to solve different problems and work with different data types, they all share a fundamental process. Namely, generating useful numerical representations of real-world phenomena."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings: An Introduction",
+        "text": "Historically, this was done by hand. This means that researchers and practitioners would use their (or other people’s) expertise to explicitly transform data into a more helpful form. Today, however, these can be derived another way."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Embeddings",
+        "text": "Embeddings are (useful) numerical representations of data learned implicitly through model training. For example, through learning how to predict text, BERT learned representations of text, which are helpful for many NLP tasks [1]. Another example is the Vision Transformer (ViT), trained for image classification on Image Net, which can be repurposed for other applications [2]."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Embeddings",
+        "text": "A key point here is that these learned embedding spaces will have some underlying structure so that similar concepts are located close together. As shown in the toy examples below."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Embeddings",
+        "text": "One key limitation of the previously mentioned models is they are restricted to a single data modality, e.g., text or images. Preventing cross-modal applications like image captioning, content moderation, image search, and more. But what if we could merge these two representations?"
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings",
+        "text": "Although text and images may look very different to us, in a neural network, these are represented via the same mathematical object, i.e., a vector. Therefore, in principle, text, images, or any other data modality can processed by a single model."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings",
+        "text": "This fact underlies multimodal embeddings, which represent multiple data modalities in the same vector space such that similar concepts are co-located (independent of their original representations)."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings",
+        "text": "For example, CLIP encodes text and images into a shared embedding space [3]. A key insight from CLIP is that by aligning text and image representations, the model is capable of 0-shot image classification on an arbitrary set of target classes since any input text can be treated as a class label (we will see a concrete example of this later)."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Multimodal Embeddings",
+        "text": "However, this idea is not limited to text and images. Virtually any data modalities can be aligned in this way e.g., text-audio, audio-image, text-EEG, image-tabular, and text-video. Unlocking use cases such as video captioning, advanced OCR, audio transcription, video search, and EEG-to-text [4]."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Contrastive Learning",
+        "text": "The standard approach to aligning disparate embedding spaces is contrastive learning (CL). A key intuition of CL is to represent different views of the same information similarly [5]."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Contrastive Learning",
+        "text": "This consists of learning representations that maximize the similarity between positive pairs and minimize the similarity of negative pairs. In the case of an image-text model, a positive pair might be an image with an appropriate caption, while a negative pair would be an image with an irrelevant caption (as shown below)."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Contrastive Learning",
+        "text": "Two key aspects of CL contribute to its effectiveness"
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Contrastive Learning",
+        "text": "Since positive and negative pairs can be curated from the data’s inherent structure (e.g., metadata from web images), CL training data do not require manual labeling, which unlocks larger-scale training and more powerful representations [3].It simultaneously maximizes positive and minimizes negative pair similarity via a special loss function, as demonstrated by CLIP [3]."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "With a high-level understanding of how multimodal embeddings work, let’s see two concrete examples of what they can do. Here, I will use the open-source CLIP model to perform two tasks: 0-shot image classification and image search."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "The code for these examples is freely available on the GitHub repository."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "The basic idea behind using CLIP for 0-shot image classification is to pass an image into the model along with a set of possible class labels. Then, a classification can be made by evaluating which text input is most similar to the input image."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "We’ll start by importing the Hugging Face Transformers library so that the CLIP model can be downloaded locally. Additionally, the PIL library is used to load images in Python."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "Next, we can import a version of the clip model and its associated data processor. Note: the processor handles tokenizing input text and image preparation."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "We load in the below image of a cat and create a list of two possible class labels: “a photo of a cat” or “a photo of a dog”."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "Next, we’ll preprocess the image/text inputs and pass them into the model."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "To make a class prediction, we must extract the image logits and evaluate which class corresponds to the maximum."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "The model nailed it with a 99.79% probability that it’s a cat photo. However, this was a super easy one. Let’s see what happens when we change the class labels to: “ugly cat” and “cute cat” for the same image."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "The model easily identified that the image was indeed a cute cat. Let’s do something more challenging like the labels: “cat meme” or “not cat meme”."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "While the model is less confident about this prediction with a 54.64% probability, it correctly implies that the image is not a meme."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "Another application of CLIP is essentially the inverse of Use Case 1. Rather than identifying which text label matches an input image, we can evaluate which image (in a set) best matches a text input (i.e. query)—in other words, performing a search over images."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "We start by storing a set of images in a list. Here, I have three images of a cat, dog, and goat, respectively."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "Next, we can define a query like “a cute dog” and pass it and the images into CLIP."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "We can then match the best image to the input text by extracting the text logits and evaluating the image corresponding to the maximum."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "We see that (again) the model nailed this simple example. But let’s try some trickier examples."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "Example Code: Using CLIP for 0-shot classification and image search",
+        "text": "Although this last prediction is quite controversial, all the other matches were spot on! This is likely since images like these are ubiquitous on the internet and thus were seen many times in CLIP’s pre-training."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "Multimodal embeddings unlock countless AI use cases that involve multiple data modalities. Here, we saw two such use cases, i.e., 0-shot image classification and image search using CLIP."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "Another practical application of models like CLIP is multimodal RAG, which consists of the automated retrieval of multimodal context to an LLM. In the next article of this series, we will see how this works under the hood and review a concrete example."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "My website: https://www.shawhintalebi.com/"
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "[1] BERT[2] ViT[3] CLIP[4] Thought2Text: Text Generation from EEG Signal using Large Language Models (LLMs)[5] A Simple Framework for Contrastive Learning of Visual Representations"
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "By Shaw Talebi on November 29, 2024."
+    },
+    {
+        "article_title": "Multimodal Embeddings: An Introduction",
+        "section": "What’s Next?",
+        "text": "Exported from Medium on December 2, 2024."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Multimodal Models — LLMs That Can See and Hear",
+        "text": "This is the first post in a larger series on Multimodal AI. A Multimodal Model (MM) is an AI system capable of processing or generating multiple data modalities (e.g., text, image, audio, video). In this article, I will discuss a particular type of MM that builds on top of a large language model (LLM). I’ll start with a high-level overview of such models and then share example code for using LLaMA 3.2 Vision to perform various image-to-text tasks."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Multimodal Models — LLMs That Can See and Hear",
+        "text": "Large language models (LLMs) have marked a fundamental shift in AI research and development. However, despite their broader impacts, they are still fundamentally limited."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Multimodal Models — LLMs That Can See and Hear",
+        "text": "Namely, LLMs can only process and generate text, making them blind to other modalities such as images, video, audio, and more. This is a major limitation since some tasks rely on non-text data, e.g., analyzing engineering blueprints, reading body language or speech tonality, and interpreting plots and infographics."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Multimodal Models — LLMs That Can See and Hear",
+        "text": "This has sparked efforts toward expanding LLM functionality to include multiple modalities."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What is a Multimodal Model?",
+        "text": "A Multimodal Model (MM) is an AI system that can process multiple data modalities as input or output (or both) [1]. Below are a few examples."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What is a Multimodal Model?",
+        "text": "GPT-4o — Input: text, images, and audio. Output: text.FLUX — Input: text. Output: images.Suno — Input: text. Output: audio."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What is a Multimodal Model?",
+        "text": "While there are several ways to create models that can process multiple data modalities, a recent line of research seeks to use LLMs as the core reasoning engine of a multimodal system [2]. Such models are called multimodal large language models (or large multimodal models) [2][3]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What is a Multimodal Model?",
+        "text": "One benefit of using existing LLM as a starting point for MMs is that they’ve demonstrated a strong ability to acquire world knowledge through large-scale pre-training, which can be leveraged to process concepts appearing in non-textual representations."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "3 Paths to Multimodality",
+        "text": "Here, I will focus on multimodal models developed from an LLM. Three popular approaches are described below."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "3 Paths to Multimodality",
+        "text": "LLM + Tools: Augment LLMs with pre-built componentsLLM + Adapters: Augment LLMs with multi-modal encoders or decoders, which are aligned via adapter fine-tuningUnified Models: Expand LLM architecture to fuse modalities at pre-training"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 1: LLM + Tools",
+        "text": "The simplest way to make an LLM multimodal is by adding external modules that can readily translate between text and an arbitrary modality. For example, a transcription model (e.g. Whisper) can be connected to an LLM to translate input speech into text, or a text-to-image model can generate images based on LLM outputs."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 1: LLM + Tools",
+        "text": "The key benefit of such an approach is simplicity. Tools can quickly be assembled without any additional model training."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 1: LLM + Tools",
+        "text": "The downside, however, is that the quality of such a system may be limited. Just like when playing a game of telephone, messages mutate when passed from person to person. Information may degrade going from one module to another via text descriptions only."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 2: LLM + Adapters",
+        "text": "One way to mitigate the “telephone problem” is by optimizing the representations of new modalities to align with the LLM’s internal concept space. For example, ensuring an image of a dog and the description of one look similar to the LLM."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 2: LLM + Adapters",
+        "text": "This is possible through the use of adapters, a relatively small set of parameters that appropriately translate a dense vector representation for a downstream model [2][4][5]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 2: LLM + Adapters",
+        "text": "Adapters can be trained using, for example, image-caption pairs, where the adapter learns to translate an image encoding into a representation compatible with the LLM [2][4][6]. One way to achieve this is via contrastive learning [2], which I will discuss more in the next article of this series."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 2: LLM + Adapters",
+        "text": "The benefits of using adapters to augment LLMs include better alignment between novel modality representations in a data-efficient way. Since many pre-trained embedding, language, and diffusion models are available in today’s AI landscape, one can readily fuse models based on their needs. Notable examples from the open-source community are LLaVA, LLaMA 3.2 Vision, Flamingo, MiniGPT4, Janus, Mini-Omni2, and IDEFICS [3][5][7][8]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 2: LLM + Adapters",
+        "text": "However, this data efficiency comes at a price. Just like how adapter-based fine-tuning approaches (e.g. LoRA) can only nudge an LLM so far, the same holds in this context. Additionally, pasting various encoders and decoders to an LLM may result in overly complicated model architectures."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 3: Unified Models",
+        "text": "The final way to make an LLM multimodal is by incorporating multiple modalities at the pre-training stage. This works by adding modality-specific tokenizers (rather than pre-trained encoder/decoder models) to the model architecture and expanding the embedding layer to accommodate new modalities [9]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 3: Unified Models",
+        "text": "While this approach comes with significantly greater technical challenges and computational requirements, it enables the seamless integration of multiple modalities into a shared concept space, unlocking better reasoning capabilities and efficiencies [10]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 3: Unified Models",
+        "text": "The preeminent example of this unified approach is (presumably) GPT-4o, which processes text, image, and audio inputs to enable expanded reasoning capabilities at faster inference times than previous versions of GPT-4. Other models that follow this approach include Gemini, Emu3, BLIP, and Chameleon [9][10]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Path 3: Unified Models",
+        "text": "Training these models typically entails multi-step pre-training on a set of (multimodal) tasks, such as language modeling, text-image contrastive learning, text-to-video generation, and others [7][9][10]."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "With a basic understanding of how LLM-based multimodal models work under the hood, let’s see what we can do with them. Here, I will use LLaMA 3.2 Vision to perform various image-to-text tasks."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "To run this example, download Ollama and its Python library. This enables the model to run locally i.e. no need for external API calls."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "The example code is freely available on GitHub."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "Next, we’ll download the model locally. Here, we use LLaMA 3.2 Vision 11B."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "Now, we’re ready to use the model! Here’s how we can do basic visual question answering."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "The image is of me from a networking event (as shown below)."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "The model’s response is shown below. While it has trouble reading what’s on my hat, it does a decent job inferring the context of the photo."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "If you run this on your machine, you may run into a long wait time until the model generates a response. One thing we can do to make this less painful is to enable streaming."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "Interestingly, we get a qualitatively different response when prompting the model in a slightly different way for the same image."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "Objectively describing a scene is simpler than understanding and explaining humor. Let’s see how the model explains the meme below."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "The model does a good job here. It understands that the image is funny while also conveying the pain that people face."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "The last use case is optical character recognition (OCR). This involves extracting text from images, which is valuable in a wide range of contexts. Here, I’ll see if the model can translate a screenshot from my notes app to a markdown file."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "Example: Using LLaMA 3.2 Vision for Image-based Tasks",
+        "text": "Again, the model does a decent job out of the box. While it missed the header, it accurately captured the content and formatting of the project ideas."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "Multimodal models are AI systems that can process multiple data modalities as inputs or outputs (or both). A recent trend for developing these systems involves adding modalities to large language models (LLMs)."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "However, there are other types of multimodal models. In the next article of this series, I will discuss multimodal embedding models, which encode multiple data modalities (e.g. text and images) into a shared representation space."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "👉 Get FREE access to every new story I write (Learn More)"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[1] Multimodal Machine Learning: A Survey and Taxonomy"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[2] A Survey on Multimodal Large Language Models"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[5] Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[6] Learning Transferable Visual Models From Natural Language Supervision"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[7] Flamingo: a Visual Language Model for Few-Shot Learning"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[8] Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[9] Emu3: Next-Token Prediction is All You Need"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "[10] Chameleon: Mixed-Modal Early-Fusion Foundation Models"
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "By Shaw Talebi on November 19, 2024."
+    },
+    {
+        "article_title": "Multimodal Models — LLMs that can see and hear",
+        "section": "What’s next?",
+        "text": "Exported from Medium on December 2, 2024."
+    }
+]
