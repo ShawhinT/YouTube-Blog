@@ -22,5 +22,5 @@ Topics:
 
 ### Supplemental Materials
 
-🎥 YouTube Playlist: https://www.youtube.com/playlist?list=PLz-ep5RbHosWmAt-AMK0MBgh3GeSvbCmL <br>
-📰 Medium Reading List: https://shawhin.medium.com/list/full-stack-data-science-f0910c75d006
+🎥 [YouTube Playlist](https://www.youtube.com/playlist?list=PLz-ep5RbHosWmAt-AMK0MBgh3GeSvbCmL) <br>
+📰 [Medium Reading List](https://shawhin.medium.com/list/full-stack-data-science-f0910c75d006)
