@@ -2,7 +2,7 @@
 
 The goal of this series is to provide an accessible and practical introduction to large language models (LLMs). Each topic is accompanied by a YouTube video and Medium blog post. For those with code examples, the notebooks are freely available in this repo.
 
-If you have questions or suggestions for additional topics, reach out here: https://www.shawhintalebi.com/contact
+If you have questions or suggestions for additional topics, [submit an issue](https://github.com/ShawhinT/YouTube-Blog/issues)!
 
 Topics:
 - **Introduction**: [Video](https://youtu.be/tFHeUSJAYbE?si=hBFH1g7OAAeORf32) | [Blog](https://towardsdatascience.com/a-practical-introduction-to-llms-65194dda1148)
