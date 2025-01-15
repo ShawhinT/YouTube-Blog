@@ -14,7 +14,7 @@ If you have any suggestions for improvements or future content [create an issue]
 
 If you find value in this work and would like to share/repurpose it, please use the following citation: 
 
-`Talebi S. YouTube-Blog. 2024. https://github.com/ShawhinT/YouTube-Blog`
+`Talebi S. YouTube-Blog. 2025. https://github.com/ShawhinT/YouTube-Blog`
 
 __Bibtex__:
 
@@ -23,6 +23,6 @@ __Bibtex__:
 authors={Shawhin Talebi},
 title={YouTube-Blog},
 howpublished={https://github.com/ShawhinT/YouTube-Blog}
-year={2024}
+year={2025}
 }
 ```
