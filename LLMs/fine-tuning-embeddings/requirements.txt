@@ -1,0 +1,15 @@
+jupyterlab
+ipykernel
+ipywidgets
+requests
+beautifulsoup4
+pandas
+pyppeteer
+openai
+datasets
+torch
+torchvision
+torchaudio
+transformers==4.48.0
+sentence-transformers==3.3.1
+accelerate
