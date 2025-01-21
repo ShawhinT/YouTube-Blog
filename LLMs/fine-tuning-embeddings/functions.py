@@ -8,7 +8,7 @@ import re
 
 async def scrape_jobs(search_term, num_pages=10):
     """
-    Scrape job postings from The Muse based on search term
+    Scrape job postings based on search term
     
     Args:
         search_term (str): Search term to look for
