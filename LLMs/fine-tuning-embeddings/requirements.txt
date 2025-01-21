@@ -1,10 +1,7 @@
 jupyterlab
 ipykernel
 ipywidgets
-requests
-beautifulsoup4
 pandas
-pyppeteer
 openai
 datasets
 torch
