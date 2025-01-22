@@ -12,15 +12,15 @@ Based on the example from [here](https://sbert.net/docs/sentence_transformer/tra
 1. Clone this repo
 2. Navigate to downloaded folder and create new venv
 ```
-python -m venv s5-env
+python -m venv eft-env
 ```
 3. Activate venv
 ```
 # mac/linux
-source s5-env/bin/activate
+source eft-env/bin/activate
 
 # windows
-.\s5-env\Scripts\activate.bat
+.\eft-env\Scripts\activate.bat
 ```
 4. Install dependencies
 ```
