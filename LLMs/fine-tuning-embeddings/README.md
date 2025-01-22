@@ -2,7 +2,7 @@
 Based on the example from [here](https://sbert.net/docs/sentence_transformer/training_overview.html#trainer)
 
 **Links:**
-- Video link (coming soon!)
+- [Video link](https://youtu.be/hOLBrIjRAj4)
 - Blog link (coming soon!)
 - [Original Dataset](https://huggingface.co/datasets/datastax/linkedin_job_listings) | [Final Dataset](https://huggingface.co/datasets/shawhin/ai-job-embedding-finetuning)
 - [Original Model](https://huggingface.co/sentence-transformers/all-distilroberta-v1) | [Fine-tuned Model](https://huggingface.co/shawhin/distilroberta-ai-job-embeddings)
