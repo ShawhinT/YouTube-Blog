@@ -6,6 +6,7 @@ In this series, I explore recent developments in multimodal AI systems. Each top
 - Multimodal Models (LLMs): [Video](https://youtu.be/Ot2c5MKN_-w) | [Blog](https://towardsdatascience.com/multimodal-models-llms-that-can-see-and-hear-5c6737c981d3) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/multimodal-ai/1-mm-llms)
 - Mulitmodal Embeddings: [Video](https://youtu.be/YOvxh_ma5qE) | [Blog](https://towardsdatascience.com/multimodal-embeddings-an-introduction-5dc36975966f) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/multimodal-ai/2-mm-embeddings)
 - Mulitmodal RAG: [Video](https://youtu.be/Y7pNmocrmi8) | [Blog](https://medium.com/towards-data-science/multimodal-rag-process-any-file-type-with-ai-e6921342c903) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/multimodal-ai/3-multimodal-rag)
+- Fine-tuning Mulitmodal Embeddings: Video | Blog | Code | Dataset | Model
 
 ### Supplemental Materials
 

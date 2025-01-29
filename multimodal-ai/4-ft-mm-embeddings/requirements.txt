@@ -1,0 +1,13 @@
+jupyterlab
+ipykernel
+ipywidgets
+requests
+isodate
+pandas
+datasets
+torch==2.3.0
+torchvision
+torchaudio
+transformers==4.48.0
+sentence-transformers==3.3.1
+accelerate
