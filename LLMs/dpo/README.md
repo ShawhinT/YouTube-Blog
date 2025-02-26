@@ -3,7 +3,7 @@ Example code for fine-tuning Qwen2.5–0.5B-Instruct to generate YouTube titles 
 
 **Links:**
 - Video link
-- Blog link
+- [Blog link](https://shawhin.medium.com/fine-tuning-llms-on-human-feedback-rlhf-dpo-1c693dbc4cbf)
 - [Dataset](https://huggingface.co/datasets/shawhin/youtube-titles-dpo)
 - [Fine-tuned Model](https://huggingface.co/shawhin/Qwen2.5-0.5B-DPO)
 
