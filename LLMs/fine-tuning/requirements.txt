@@ -1,0 +1,10 @@
+jupyterlab
+ipykernel
+ipywidgets
+datasets
+torch
+torchvision
+torchaudio
+transformers
+peft
+evaluate
