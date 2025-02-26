@@ -1,0 +1,13 @@
+jupyterlab
+ipykernel
+ipywidgets
+pandas
+openai
+datasets
+torch
+torchvision
+torchaudio
+transformers==4.48.0
+trl
+together
+python-dotenv
