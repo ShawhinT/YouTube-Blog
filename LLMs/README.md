@@ -20,7 +20,7 @@ Topics:
 - Model Compression: [Video](https://youtu.be/FLkUOkeMd5M) | [Blog](https://towardsdatascience.com/compressing-large-language-models-llms-9f406eea5b5e) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/model-compression)
 - Fine-tuning BERT: [Video](https://youtu.be/4QHg8Ix8WWQ) | [Blog](https://medium.com/towards-data-science/fine-tuning-bert-for-text-classification-a01f89b179fc) | [Code](https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/model-compression/0_train-teacher.ipynb)
 - Fine-tuning Text Embeddings: [Video](https://youtu.be/hOLBrIjRAj4) | [Blog](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/fine-tuning-embeddings)
-- Fine-tuning on Human Feedback: Video | Blog | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/dpo)
+- Fine-tuning on Human Feedback: Video | [Blog](https://shawhin.medium.com/fine-tuning-llms-on-human-feedback-rlhf-dpo-1c693dbc4cbf) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/dpo)
 
 ### Supplemental Materials
 
