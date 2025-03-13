@@ -21,6 +21,7 @@ Topics:
 - Fine-tuning BERT: [Video](https://youtu.be/4QHg8Ix8WWQ) | [Blog](https://medium.com/towards-data-science/fine-tuning-bert-for-text-classification-a01f89b179fc) | [Code](https://github.com/ShawhinT/YouTube-Blog/blob/main/LLMs/model-compression/0_train-teacher.ipynb)
 - Fine-tuning Text Embeddings: [Video](https://youtu.be/hOLBrIjRAj4) | [Blog](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/fine-tuning-embeddings)
 - Fine-tuning on Human Feedback: [Video](https://youtu.be/bbVoDXoPrPM) | [Blog](https://shawhin.medium.com/fine-tuning-llms-on-human-feedback-rlhf-dpo-1c693dbc4cbf) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/dpo)
+- Evaluating LLMs: Video | Blog | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/evals)
 
 ### Supplemental Materials
 
