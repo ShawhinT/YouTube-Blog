@@ -3,7 +3,7 @@ Example code for systematically improving a YouTube video to blog converter usin
 
 **Links:**
 - [Video link](): coming soon
-- [Blog link](): coming soon
+- [Blog link](https://shawhin.medium.com/how-to-evaluate-and-improve-your-llm-apps-f7b08fb7493c)
 
 ### Main Python Files
 - `generate_blog.py` - Main script for converting videos to blog posts
