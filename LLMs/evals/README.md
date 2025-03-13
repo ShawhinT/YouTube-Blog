@@ -22,7 +22,7 @@ Example code for systematically improving a YouTube video to blog converter usin
 - `transcripts/` - YouTube video transcripts
 - `data-extract/` - Extracted data from Medium
 
-Note: The articles in `blogs/0_real/` and  `data-extract/` are copyrighted creative works and all rights are reserved. These articles may not be reproduced or distributed without explicit permission.
+Note: The articles in `blogs/0_real/` and  `data-extract/` are **copyrighted creative works and all rights are reserved**. These articles may not be reproduced or distributed without explicit permission.
 
 ## How to run this example
 
