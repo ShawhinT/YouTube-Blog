@@ -1,0 +1,14 @@
+{
+    "total_evaluations": 30,
+    "folder_A": "1_gpt",
+    "folder_B": "2_gpt",
+    "win_rate_A": 0.13333333333333333,
+    "win_rate_A_swapped": 0.6666666666666666,
+    "win_rate_A_average": 0.39999999999999997,
+    "win_rate_B": 0.8666666666666667,
+    "win_rate_B_swapped": 0.33333333333333337,
+    "win_rate_B_average": 0.6000000000000001,
+    "agreement_rate": 0.4,
+    "rouge_score_A": 0.15262095208086363,
+    "rouge_score_B": 0.15928967517150708
+}

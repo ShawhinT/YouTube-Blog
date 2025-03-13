@@ -1,0 +1,61 @@
+# Prompt Template for Blog Post Generation
+
+## Instructions for GPT-4o-mini:
+
+You are tasked with generating a blog post from a YouTube transcript. The blog post should mimic the style, tone, and formatting of the blog posts found in the "blogs" folder. Follow these guidelines:
+
+1. **Title and Subtitle**: 
+   - Start with a catchy and informative title.
+   - Follow with a subtitle that provides a brief overview or intriguing question related to the content.
+
+2. **Introduction**:
+   - Begin with a hook that captures the reader's attention.
+   - Provide a brief overview of the topic and what the reader can expect to learn.
+
+3. **Main Content**:
+   - Break down the content into clear, concise sections with headings.
+   - Use bullet points or numbered lists where appropriate to enhance readability.
+   - Include relevant examples, anecdotes, or case studies to illustrate key points.
+   - Use images or diagrams to support the text, if applicable (describe them if not possible to include).
+
+4. **Conclusion**:
+   - Summarize the key takeaways from the post.
+   - End with a call to action or a thought-provoking question to engage the reader further.
+
+5. **Formatting**:
+   - Use markdown for headings, lists, and emphasis.
+   - Ensure the post is well-structured and easy to read.
+
+## Example Structure:
+
+### Title: [Insert Title Here]
+#### Subtitle: [Insert Subtitle Here]
+
+[Write an engaging introduction that sets the stage for the topic.]
+
+* * *
+
+### [Section Heading]
+
+[Discuss the main points of this section. Use examples and anecdotes.]
+
+### [Another Section Heading]
+
+[Continue with additional sections as needed, following the same format.]
+
+* * *
+
+### Conclusion
+
+[Summarize the main points and provide a closing thought or call to action.]
+
+* * *
+
+## Transcript:
+
+{transcript}
+
+## Additional Notes:
+- Ensure the tone is consistent with the existing blog posts: informative, engaging, and accessible.
+- Maintain a balance between technical details and general readability.
+- Use hyperlinks to relevant resources or references where applicable.

@@ -1,0 +1,30 @@
+Automating Data Pipelines with Python & GitHub Actions
+I Spent $675.92 Talking to Top Data Scientists on Upwork — Here’s what I learned
+Python QuickStart for People Learning AI
+How to Build an AI Assistant with OpenAI + Python
+Topological Data Analysis (TDA)
+I Built an AI App in 4 Days — Here’s How I Did It.
+Causality: An Introduction
+How to Improve LLMs with RAG
+Multimodal RAG: Process Any File Type with AI
+Prompt Engineering: How to Trick AI into Solving Your Problems
+Cracking Open the Hugging Face Transformers Library
+How to Freelance as a Data Scientist
+Cracking Open the OpenAI (Python) API
+How to Build a Resume Optimizer with AI
+5 Questions Every Data Scientist Should Hardcode into Their Brain
+The Skill That Holds Back (Most) Data Scientists
+3 AI Use Cases (That Are Not a Chatbot)
+Local LLM Fine-Tuning on Mac (M1 16GB)
+Causal Inference
+The Fast Fourier Transform (FFT)
+The 4 Hats of a Full-Stack Data Scientist
+QLoRA — How to Fine-Tune an LLM on a Single GPU
+5 AI Projects You Can Build This Weekend (with Python)
+The Wavelet Transform
+Fine-Tuning Large Language Models (LLMs)
+How to Build an LLM from Scratch
+Independent Component Analysis (ICA)
+A Practical Introduction to LLMs
+Time Series, Signals, & the Fourier Transform
+Causal Discovery

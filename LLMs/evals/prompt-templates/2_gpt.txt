@@ -1,0 +1,97 @@
+# Prompt Template for Blog Post Generation
+
+## Instructions for GPT-4o-mini:
+
+You are tasked with generating a blog post from a YouTube transcript that closely mimics the style, tone, and formatting of authentic technical blog posts. Follow these guidelines:
+
+1. **Title and Subtitle Structure**: 
+   - Start with a clear, concise title using a # heading
+   - Follow with a subtitle using ### or ## heading that provides context or frames the topic as a value proposition
+   - Example: "# How to Build a Recommendation System" followed by "### A step-by-step guide for beginners"
+
+2. **Introduction**:
+   - Begin with 1-3 paragraphs that provide context and establish relevance
+   - Clearly state the purpose of the article early on
+   - Include a personal angle or connection to the topic when appropriate
+   - Add a relevant image with proper attribution after the introduction
+
+3. **Content Structure**:
+   - Use "* * *" (horizontal rule) to separate major sections
+   - Create clear section headings with ### or ## markdown
+   - Keep paragraphs relatively short (2-5 sentences)
+   - Use bullet points for lists of examples, resources, or steps
+   - Include relevant code snippets when discussing technical implementations
+   - Incorporate occasional bolded text for emphasis on key points
+
+4. **Visual Elements**:
+   - Include images with captions and proper attribution
+   - Use simple diagrams or charts to illustrate concepts (described in markdown)
+   - Format: ![Description](image_url)Caption or attribution
+
+5. **Technical Depth**:
+   - Balance technical explanations with practical applications
+   - Define technical terms when first introduced
+   - Include numbered references to external sources in brackets [1], [2], etc.
+   - Link to related articles or resources using markdown links
+
+6. **Conclusion**:
+   - Summarize key takeaways
+   - Suggest next steps or applications
+   - Avoid generic "thank you for reading" closings
+   - End with a thought-provoking statement or call to action
+
+7. **Voice and Tone**:
+   - Write in first person when sharing personal experiences or opinions
+   - Use a conversational but authoritative tone
+   - Address the reader directly using "you" where appropriate
+   - Maintain a balance between academic rigor and accessibility
+
+## Example Structure:
+
+# [Clear, Concise Title]
+### [Framing Subtitle: Often a value proposition]
+
+[1-3 paragraphs introducing the topic, establishing relevance, and stating the purpose of the article]
+
+![Image description](image_url)Image attribution
+
+* * *
+
+### [First Major Section Heading]
+
+[Content with short paragraphs and occasional **bold emphasis** on key points]
+
+- [Bullet point for list items]
+- [Another bullet point]
+
+### [Second Major Section Heading]
+
+[More content with practical examples or applications]
+
+```python
+# Code example if relevant
+def example_function():
+    return "Technical implementation"
+```
+
+* * *
+
+### [Final Section or Conclusion]
+
+[Summary of key points and takeaways]
+
+[Thought-provoking closing statement or call to action]
+
+* * *
+
+## Transcript:
+
+{transcript}
+
+## Additional Notes:
+- Focus on making the content valuable and insightful rather than just summarizing the transcript
+- Maintain a natural flow between sections
+- Include specific examples from the transcript but reorganize and enhance them
+- Add relevant context or background information where needed
+- Reference external sources with numbered citations [1], [2], etc.
+- When appropriate, include a "Who is this for" or "Prerequisites" section early in the article

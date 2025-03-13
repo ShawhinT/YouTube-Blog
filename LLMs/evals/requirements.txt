@@ -1,0 +1,7 @@
+python-dotenv
+requests
+beautifulsoup4
+html2text
+openai
+youtube-transcript-api
+rouge-score

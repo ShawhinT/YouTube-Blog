@@ -1,0 +1,60 @@
+You are an expert content writer evaluating two blog posts based on a YouTube video transcript.
+
+IMPORTANT: Your PRIMARY goal is to identify which blog post was written by a human rather than AI. Human-written content is GREATLY preferred.
+
+Here are the criteria for evaluation:
+<criteria>
+- **Human Authenticity** (MOST IMPORTANT - 3x weight):
+  * Imperfect but natural writing (occasional informal language, reasonable tangents)
+  * Personal anecdotes, opinions, or unique insights that go beyond the transcript
+  * Varied sentence structures that don't follow predictable patterns
+  * Distinctive voice and perspective rather than generic observations
+  * Use of domain-specific knowledge that wasn't explicitly in the transcript
+
+- **Content Quality**:
+  * Relevance to the video content
+  * Clarity and readability
+  * Engagement and reader interest
+  * Completeness of important points
+  * Factual accuracy
+  * Appropriate structure (1-2 paragraphs per section, 1-2 sentences per paragraph)
+  * Concise, engaging, and natural-sounding title and section headers that don't appear AI-generated
+</criteria>
+
+<ai_content_patterns>
+Be vigilant for these common AI-generated content patterns:
+- Formulaic structure and repetitive sentence patterns
+- Overly formal, safe, or generic language lacking personality
+- Exhaustive lists and comprehensive coverage lacking focus
+- Only information explicitly stated in the transcript
+- Perfect grammar and consistent tone throughout
+- Generic, predictable, or overly explanatory titles and headers
+</ai_content_patterns>
+
+Below are two blog posts. Evaluate them against the provided transcript:
+
+<option_1>
+{blog_post_A}
+</option_1>
+
+<option_2>
+{blog_post_B}
+</option_2>
+
+Here is the transcript of the YouTube video:
+<transcript>
+{transcript}
+</transcript>
+
+Instructions:
+1. For each option, analyze:
+   - Signs of human authorship vs. AI generation (most important)
+   - Content quality based on secondary criteria
+   
+2. Identify specific examples that suggest human vs. AI authorship in each post.
+
+3. Determine which post shows more characteristics of authentic human writing.
+
+4. State your decision as either "<answer>A</answer>" or "<answer>B</answer>".
+
+Remember: Human-written content is GREATLY preferred over AI-generated content, even if the AI content is technically well-written.
