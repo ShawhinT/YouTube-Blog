@@ -2,7 +2,7 @@
 Example code for systematically improving a YouTube video to blog converter using LLM evals.
 
 **Links:**
-- [Video link](): coming soon
+- [Video link](https://youtu.be/-sL7QzDFW-4)
 - [Blog link](https://shawhin.medium.com/how-to-evaluate-and-improve-your-llm-apps-f7b08fb7493c)
 
 ### Main Python Files
