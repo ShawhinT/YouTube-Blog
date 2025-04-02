@@ -37,7 +37,7 @@ python -m venv eval-env
 source eval-env/bin/activate
 
 # windows
-.\dpo-env\Scripts\activate.bat
+.\eval-env\Scripts\activate.bat
 ```
 4. Install dependencies
 ```

@@ -1,0 +1,7 @@
+jupyterlab
+ipykernel
+ipywidgets
+openai-agents
+openai>=1.12.0
+python-dotenv>=1.0.0
+youtube-transcript-api>=0.6.2
