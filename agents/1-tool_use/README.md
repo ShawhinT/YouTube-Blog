@@ -1,4 +1,4 @@
-#  LLMs + Tools with OpenAI's Agents SDK
+#  LLMs + Tools (with OpenAI's Agents SDK)
 Code for first example is AI agents series. Here I use OpenAI's Agents SDK to create YouTube agent that can perform arbrirary tasks (e.g. summarization, QA, timestamps) based on video links.
 
 **Links:**
