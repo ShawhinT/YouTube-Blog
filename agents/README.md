@@ -6,7 +6,7 @@ If you have questions or suggestions for additional topics, [submit an issue](ht
 
 Topics:
 - Introduction: [Video](https://youtu.be/ZaY5_ScmiFE?si=YboZ-WjenvuYoQWV) | [Blog](https://shawhin.medium.com/ai-agents-explained-at-3-levels-of-agency-421f01a25680)
-- LLM + Tools: [Video] | [Blog] | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/1-tool_use)
+- LLM + Tools: [Video](https://youtu.be/-BUs1CPHKfU) | [Blog](https://shawhin.medium.com/how-to-improve-llms-with-tools-69cc68c804ed) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/1-tool_use)
 
 ### Supplemental Materials
 
