@@ -3,7 +3,7 @@ Code for first example is AI agents series. Here I use OpenAI's Agents SDK to cr
 
 **Links:**
 - [Video link](https://youtu.be/-BUs1CPHKfU)
-- [Blog link]
+- [Blog link](https://shawhin.medium.com/how-to-improve-llms-with-tools-69cc68c804ed)
 
 ## How to run this example
 
