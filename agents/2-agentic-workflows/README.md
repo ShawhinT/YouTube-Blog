@@ -1,5 +1,5 @@
 # LLM Workflows
-Second example in AI agents series. Here, I use OpenAI's Agents SDK to create AVA, an artificual virtual assistant that can write emails for me.
+Second example in AI agents series. Here, I use OpenAI's Agents SDK to create AVA, an artificial virtual assistant that can write emails for me.
 
 **Links**
 - [Video]
