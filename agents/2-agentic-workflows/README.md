@@ -3,7 +3,7 @@ Second example in AI agents series. Here, I use OpenAI's Agents SDK to create AV
 
 **Links**
 - [Video]
-- [Blog]
+- [Blog](https://shawhin.medium.com/llm-workflows-from-automation-to-ai-agents-a62f96a0f89a)
 
 ## How to run this example
 
