@@ -2,7 +2,7 @@
 Second example in AI agents series. Here, I use OpenAI's Agents SDK to create AVA, an artificial virtual assistant that can write emails for me.
 
 **Links**
-- [Video]
+- [Video](https://youtu.be/Nm_mmRTpWLg)
 - [Blog](https://shawhin.medium.com/llm-workflows-from-automation-to-ai-agents-a62f96a0f89a)
 
 ## How to run this example
