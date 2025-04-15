@@ -1,0 +1,6 @@
+jupyterlab
+ipykernel
+ipywidgets
+openai
+python-dotenv
+textstat

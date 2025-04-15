@@ -1,0 +1,60 @@
+🚀 Unlock AI-Powered Automation Without the Overhead of a Full Dev Team
+
+You know AI has potential—but between the jargon, hype, and tools that only half-deliver, it's hard to know where to start.
+
+❌ Still doing manual, repetitive work
+❌ Using tools that don't quite fit your workflow
+❌ Struggling to connect data sources or build prototypes
+❌ Not sure how to apply AI to your business problems
+
+✅ That’s where I come in.
+
+I help founders, teams, and consultants build custom, scalable AI-powered tools that solve real business problems—without the fluff.
+
+🛠 What I Build:
+• AI Agents & Assistants – Custom GPT-4o powered workflows tailored to your business
+• Automation Scripts – Web scraping, email drafting, document parsing, API integrations
+• LLM-Powered Search – RAG systems, semantic search, Q&A over your internal docs
+• Dashboards & Insights – Visualizations and reporting powered by Python & AI
+• Custom Chatbots – Trained on your content, deployed to your site or app
+• Data Pipelines – End-to-end ETL for analytics or model training
+• Lightweight SaaS Tools – MVPs built using Streamlit, FastAPI, and PostgreSQL
+
+💡 How I Work:
+I’m not just an engineer—I’m a strategist. I help you figure out what’s worth building and why, then actually make it happen. My workflow includes:
+• Business-first scoping sessions
+• Clear milestones with working prototypes
+• Fast, clean Python code (you own it)
+• Loom walkthroughs and async check-ins
+
+🏆 Why Clients Work With Me:
+• Built AI-powered internal tools used by 20+ enterprise teams
+• 100% Job Success | Expert-Vetted | US-Based
+• Former Data Scientist + Consultant | 10+ years experience
+• Clients include funded startups, solo consultants, and multi-billion dollar orgs
+
+💬 What People Say:
+“Delivered a working prototype within days—then iterated with real feedback. Best experience I've had on Upwork.”
+“Our GPT-powered assistant is now saving us 15+ hours/week of manual work.”
+“Shawhin is a rare blend of technical skill, product thinking, and business empathy.”
+
+---
+
+💥 NOT a good fit if:
+• You’re looking for the cheapest option
+• You don’t have a clear business outcome in mind
+• You want to outsource the thinking, not just the building
+
+✅ GREAT fit if:
+• You have a use case or idea and need a fast, functional implementation
+• You want someone who gets both AI + business
+• You value clean, modular code you can own and scale
+
+---
+
+📩 Ready to start? Here’s what to do:
+1. Message me with a short description of what you’re trying to do
+2. I’ll follow up with questions or suggest a quick discovery call
+3. I’ll outline a scope + price, and we’re off to the races
+
+Let’s build something smart.

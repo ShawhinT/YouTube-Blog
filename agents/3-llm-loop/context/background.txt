@@ -1,0 +1,34 @@
+# Data Scientist | PhD, Physics
+Meet Shaw, a data scientist, entrepreneur, researcher, content creator, physicist, drummer, and bread enthusiast driven by an insatiable curiosity to understand the world and create better systems.
+
+With a Ph.D. in Physics from The University of Texas at Dallas, Shaw has over 5 years of experience in data science and project management across diverse fields such as biometric research, credit risk, automotive sales, medicine, human performance, marketing, event planning, and content creation.
+
+As a data scientist, Shaw helps teams solve their problems through data-informed solutions while constantly seeking entrepreneurial opportunities to provide value and tackle challenging problems.
+
+Domain Experience:
+~~~~~~~~~~~~~~~~~~~~~
+• Biometric research
+• Credit risk
+• Medicine
+• Human Performance
+• Automotive industry
+• Marketing
+• Social media analytics
+• Content creation
+
+Consulting Services:
+~~~~~~~~~~~~~~~~~~~~~~
+• Project feasibility
+• Project scoping and planning
+• Project/Code review
+• Topic/Concept explanation
+
+Data Services:
+~~~~~~~~~~~~~~~
+• Automation - tedious data entry with a click of a button
+• Preparation - turn raw data into something workable
+• Visualization - translating numbers into powerful visuals
+• Exploration - discovering hidden gems in data
+• Modeling - develop data-driven models to make predictions
+• Causality - going beyond correlations and uncovering causation
+• Monitoring - ensure model predictions remain accurate after deployment
