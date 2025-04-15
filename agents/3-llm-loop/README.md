@@ -3,7 +3,7 @@ Third code example in AI agents series. Here I refine my Upwork profile using a 
 
 **Links:**
 - [Video link]
-- [Blog link]
+- [Blog link](https://shawhin.medium.com/llm-in-a-loop-improving-outputs-with-evals-5620e00f7258)
 
 ## How to run this example
 
