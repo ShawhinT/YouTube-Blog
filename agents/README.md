@@ -8,7 +8,7 @@ Topics:
 - Introduction: [Video](https://youtu.be/ZaY5_ScmiFE?si=YboZ-WjenvuYoQWV) | [Blog](https://shawhin.medium.com/ai-agents-explained-at-3-levels-of-agency-421f01a25680)
 - LLM + Tools: [Video](https://youtu.be/-BUs1CPHKfU) | [Blog](https://shawhin.medium.com/how-to-improve-llms-with-tools-69cc68c804ed) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/1-tool_use)
 - LLM Workflows: [Video](https://youtu.be/Nm_mmRTpWLg) | [Blog](https://shawhin.medium.com/llm-workflows-from-automation-to-ai-agents-a62f96a0f89a) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/2-agentic-workflows)
-- LLM in a Loop: [Video] | [Blog](https://shawhin.medium.com/llm-in-a-loop-improving-outputs-with-evals-5620e00f7258) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/3-llm-loop)
+- LLM in a Loop: [Video](https://youtu.be/6VcXukJuGA0) | [Blog](https://shawhin.medium.com/llm-in-a-loop-improving-outputs-with-evals-5620e00f7258) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/3-llm-loop)
 
 ### Supplemental Materials
 
