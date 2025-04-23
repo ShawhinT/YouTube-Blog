@@ -1,0 +1,6 @@
+mcp[cli]
+python-dotenv>=1.0.0
+openai-agents
+openai>=1.12.0
+google-api-python-client
+google_auth_oauthlib
