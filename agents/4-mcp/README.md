@@ -3,7 +3,7 @@ Fourth example in AI agents series. Here, I build a customer MCP server to give 
 
 **Links**
 - [Video]
-- [Blog]
+- [Blog](https://medium.com/data-science-collective/model-context-protocol-mcp-explained-ef5c33c5fe05)
 
 ## How to run this example
 
