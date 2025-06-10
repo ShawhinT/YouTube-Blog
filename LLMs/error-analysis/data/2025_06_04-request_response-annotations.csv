@@ -1,0 +1,130 @@
+index,notes,Double CTA,Bad hook,Factual errors,Didn't use user hook,Extra text after CTA,Missing my experience/insight,Hook-Body Discrep,Misunderstood input,Uncharacteristic body structure,Uncharacteristic voice,Didn't follow writing steps,Failed to write post
+0,"Hook sounds too salesly. Also it's 2025 not 2024, but that's not a big deal.",False,True,True,False,False,False,False,False,False,False,False,False
+1,System failed to use the hook provided by user. Hook generated is  weak.,False,True,False,True,False,False,False,False,False,False,False,False
+2,Failed to use provided hook. Provided hook is weak. Superfluous line after CTA/question.,False,True,False,True,True,False,False,False,False,False,False,False
+3,"Failed to use provided hook. However, the one generated is pretty good.
+
+Most of the use cases written are things I don't do.",False,False,False,True,False,True,False,False,False,False,False,False
+4,"Failed to use provided hook. But the one is wrote was okay. Repetition of ""first AI agent"" in first 2 lines sounds weird.",False,False,False,True,False,False,True,False,False,False,False,False
+5,"Misinterpreted 70k as a dollar figure not follower count.
+
+CTA has two questions. System should pick one. Also line after CTA may be superfluous.",True,False,False,False,True,False,False,True,False,False,False,False
+6,"Failed to use provided hook. Final hook makes a big claim of ""no experience required""
+
+Habit tracker might take more than an hour.
+
+CTA has two questions. System should pick one.",True,False,True,True,False,False,False,False,False,False,False,False
+7,Two CTAs. System should pick one.,True,False,False,False,False,False,False,False,False,False,False,False
+8,"Hook is weak. System should have iterated on a few ideas.
+
+System wrote 2 questions. It should pick one.",True,True,False,False,False,False,False,False,False,False,False,False
+9,"Failed to use provided hook. Final hook is weaker. System should have iterated on hook ideas and considered user input.
+
+Body is not aligned with the narrative I had in mind. It focuses too much on wealth and money terms and not the main point which is learning. 
+
+Body has too many questions.",False,True,False,True,False,True,False,False,True,False,False,False
+10,"Failed to discuss software 1.0, software 2.0, and software 3.0 in the body.
+
+Post has 2 CTA questions in it. It should pick one.",True,False,False,False,False,True,False,False,False,False,False,False
+11,"Hook is a little salesy. A pain-focused one would have been better.
+
+Body falsely claims all projects are beginner-friendly when they range from beginner to advanced.",False,True,True,False,False,False,False,False,False,False,False,False
+12,Bullet point explanations in the body don't sound like something I would say.,False,False,False,False,False,True,False,False,False,True,False,False
+13,"The mention of ""Linux configs"" feels esoteric and not a pain point for mac users.
+
+Post include two CTA questions. System should pick one.",True,False,False,False,False,True,False,False,False,False,False,False
+14,"System failed to write meat, CTA, and Hook step-by-step. It skipped to final post.
+
+No need for  bonus ""follow me"" CTA because that can be added with code.",False,False,False,False,True,False,False,False,False,False,True,False
+15,"Bad hook, doesn't seem to reflect reality. Model should have iterated on more hook ideas.
+
+No need for  bonus ""follow me"" CTA because that can be added with code.
+
+Question CTA should come after blog share",False,True,False,False,True,False,False,False,True,False,False,False
+16,"CTA question is a little confusing, can be simplified.",True,False,False,False,False,False,False,False,False,False,False,False
+17,"Weak CTA. That doesn't feel like a real pain point. 
+
+Model failed to think through Body, CTA, and hook separately and in that order. It just jumped to post.
+
+Double CTA question. Model should pick one.",True,False,False,False,False,False,False,False,False,False,True,False
+18,"Hook feels a little salesy. Also no need to tease AI bootcamp.
+
+Bootcamp should be a ""PS"" (after CTA) not part of the body",False,True,False,False,False,False,False,False,True,False,False,False
+19,"Post failed to convey valuable takeaways from actual conversation. It seemed to make stuff up about selling 1:1 coaching, which is not the point.",False,False,False,False,False,True,False,False,False,False,False,False
+20,"Double question CTA. Model should pick one.
+
+No need for  bonus ""follow me"" CTA because that can be added with code.",True,False,False,False,True,False,False,False,False,False,False,False
+21,"Model failed to think step by step about post and to write in the proper body, CTA, hook order.
+
+Post lacks my insight and take on AI coding. Sounds cookie cutter.",False,False,False,False,False,True,False,False,False,False,True,False
+22,,False,False,False,False,False,False,False,False,False,False,False,False
+23,"Model failed to think step by step about post. Did not write sections in the proper body, CTA, hook order.
+
+Post CTA note is unnecessary.",False,False,False,False,True,False,False,False,False,False,True,False
+24,Private note below post is unnecessary,False,False,False,False,True,False,False,False,False,False,False,False
+25,"Question CTA should come after blog share
+
+Extra ""follow me"" CTA is not needed",False,False,False,False,True,False,False,False,True,False,False,False
+26,"Book commentary for ""Super Study Guide"" is missing key point that it is a visual guide.
+
+Double CTA. Model should pick one.",True,False,False,False,False,True,False,False,False,False,False,False
+27,Question CTA should come after blog share,False,False,False,False,False,False,False,False,True,False,False,False
+28,"Weak hook. Model should iterate on a few ideas and pick one.
+
+Double question CTA. Model should pick one.",True,True,False,False,False,False,False,False,False,False,False,False
+29,"Model failed to write post step by step in proper body, CTA, hook order.
+
+Failed to write single continuous final post.
+
+Weak hook.",False,True,False,False,False,False,False,False,False,False,True,True
+30,,False,False,False,False,False,False,False,False,False,False,False,False
+31,,False,False,False,False,False,False,False,False,False,False,False,False
+32,"Blog link should be before question CTA.
+
+No need for private comment below post.",False,False,False,False,True,False,False,False,True,False,False,False
+33,"Hook and first line of body seem to clash (it's a little repetitive)
+
+Double question CTA. Model should pick one.",True,False,False,False,False,False,True,False,False,False,False,False
+34,,False,False,False,False,False,False,False,False,False,False,False,False
+35,Double question CTA. Model should pick one,True,False,False,False,False,False,False,False,False,False,False,False
+36,"Double CTA question. Model should pick one.
+
+No need for extra ""repost"" CTA",True,False,False,False,True,False,False,False,False,False,False,False
+37,"Hook could be stronger.
+
+Post says 15 skills but only 11 were provided.
+
+Model should have numbered this list in body.
+
+Double question CTA. Model should pick one.",True,True,True,False,False,False,False,False,True,False,False,False
+38,"Double question CTA. Model should stick to one.
+
+No need for private note below post.",True,False,False,False,True,False,False,False,False,False,False,False
+39,"Post does not include my insight or take on content creation.
+
+Body seems to mention ""AI-powered"" content which is not the focus.
+
+Double CTA. Model should pick one.
+
+No need for extra ""repost and follow"" CTA",True,False,False,False,True,True,False,False,False,False,False,False
+40,"Hook and 1st line of body don't flow.
+
+Double CTA. Model should pick one.",True,False,False,False,False,False,True,False,False,False,False,False
+41,Double CTA. Model should pick one.,True,False,False,False,False,False,False,False,False,False,False,False
+42,"Hook is not clear. Doesn't feel like a real pain point.
+
+Model should not include ""helpful links"" section since this is distracting and potentially penalized by LinkedIn.
+
+Double CTA. Model should pick one.",True,True,False,False,False,False,False,False,True,False,False,False
+43,"Hook states that I am currently following this strategy when this is actually what I would do if I started over (with runway)
+
+Double CTA. Model should pick one.",True,False,False,False,False,True,False,False,False,False,False,False
+44,Double CTA. Model should pick one.,True,False,False,False,False,False,False,False,False,False,False,False
+45,"Hook and 1st line of body don't follow. Feels too repetitive.
+
+Double CTA. Model should pick one.
+
+No need for extra ""follow"" CTA",True,False,False,False,True,False,True,False,False,False,False,False
+46,Body doesn't give much value. Model should have expanded on the meaning of accuracy and diversity and given illustrative examples.,False,False,False,False,False,True,False,False,False,False,False,False
+47,Hook and first line of body clash. 1st line of body could be omitted here.,False,False,False,False,False,False,True,False,False,False,False,False
+48,Post mentions a lead tracking dashboard but the one I made was for market analysis,False,False,False,False,False,True,False,False,False,False,False,False
