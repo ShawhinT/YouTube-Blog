@@ -3,7 +3,7 @@ Example code for LLM error analysis of LinkedIn Ghostwriter.
 
 **Links:**
 - [Video link]
-- [Blog link]
+- [Blog link](https://shawhin.medium.com/how-to-improve-ai-apps-with-error-analysis-4af5f163a1d1)
 
 ## Main Python Files
 - `1-generate_posts.py` - Main script for generating LinkedIn posts from user inputs using OpenAI API
