@@ -22,7 +22,7 @@ Topics:
 - Fine-tuning Text Embeddings: [Video](https://youtu.be/hOLBrIjRAj4) | [Blog](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/fine-tuning-embeddings)
 - Fine-tuning on Human Feedback: [Video](https://youtu.be/bbVoDXoPrPM) | [Blog](https://shawhin.medium.com/fine-tuning-llms-on-human-feedback-rlhf-dpo-1c693dbc4cbf) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/dpo)
 - Evaluating LLMs: [Video](https://youtu.be/-sL7QzDFW-4) | [Blog](https://shawhin.medium.com/how-to-evaluate-and-improve-your-llm-apps-f7b08fb7493c) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/evals)
-- LLM Error Analysis: [Video] | [Blog](https://shawhin.medium.com/how-to-improve-ai-apps-with-error-analysis-4af5f163a1d1) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/error-analysis)
+- LLM Error Analysis: [Video](https://youtu.be/982V2ituTdc) | [Blog](https://shawhin.medium.com/how-to-improve-ai-apps-with-error-analysis-4af5f163a1d1) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/error-analysis)
 
 ### Supplemental Materials
 
