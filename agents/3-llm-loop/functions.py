@@ -114,7 +114,7 @@ def run_all_evals(text, word_count_min=300, word_count_max=800, client_focus_min
     
     return results
 
-def generate_eval_report(profile_text: str) -> str:
+def generate_eval_report(profile_text: str, results: dict) -> str:
     """
     Generates a markdown-formatted prompt for an LLM to revise an Upwork profile,
     with explicit strategies for word count and readability improvements.
@@ -126,8 +126,6 @@ def generate_eval_report(profile_text: str) -> str:
         str: A markdown-formatted evaluation report and rewrite instructions
     """
     status_emoji = {True: "✅ Passed", False: "❌ Failed"}
-
-    results = run_all_evals(profile_text)
 
     notes = {
         "word_count": {
