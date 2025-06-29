@@ -10,7 +10,7 @@ Topics:
 - LLM Workflows: [Video](https://youtu.be/Nm_mmRTpWLg) | [Blog](https://shawhin.medium.com/llm-workflows-from-automation-to-ai-agents-a62f96a0f89a) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/2-agentic-workflows)
 - LLM in a Loop: [Video](https://youtu.be/6VcXukJuGA0) | [Blog](https://shawhin.medium.com/llm-in-a-loop-improving-outputs-with-evals-5620e00f7258) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/3-llm-loop)
 - MCP: [Video](https://youtu.be/N3vHJcHBS-w) | [Blog](https://medium.com/data-science-collective/model-context-protocol-mcp-explained-ef5c33c5fe05) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/4-mcp)
-- Notion Agent: [Video] | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/5-notion-agent)
+- Notion Agent: [Video](https://youtu.be/lS33W56-NGc) | [Code](https://github.com/ShawhinT/YouTube-Blog/tree/main/agents/5-notion-agent)
 
 ### Supplemental Materials
 
