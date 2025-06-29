@@ -3,7 +3,7 @@
 A LinkedIn ghostwriter agent that connects to Notion via MCP (Model Context Protocol) server. This command-line interface allows you to interact with your Notion workspace using natural language through an AI agent powered by GPT-4.
 
 Resources:
-- [Video Link]
+- [Video Link](https://youtu.be/lS33W56-NGc)
 
 ## Features
 
